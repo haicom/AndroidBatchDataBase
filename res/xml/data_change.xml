@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datas
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:breezing="http://schemas.android.com/apk/res/com.importdata">
+
+    <data
+        breezing:name="food"
+        breezing:type="update"
+        breezing:version="6.0"
+        breezing:object="com.importdata.transation.HeatIngestionUpdater"/>
+
+
+
+     <data
+        breezing:name="cost"
+        breezing:type="insert"
+        breezing:version="2.0"
+        breezing:object="com.importdata.transation.EnergyCostInserter"/>
+
+     <data
+        breezing:name="ingestion"
+        breezing:type="insert"
+        breezing:version="1.0"
+        breezing:object="com.importdata.transation.IngestionInserter"/>
+
+      <data
+        breezing:name="weight"
+        breezing:type="update"
+        breezing:version="3.0"
+        breezing:object="com.importdata.transation.WeightChangeUpdater"/>
+
+       <data
+        breezing:name="settings"
+        breezing:type="insert"
+        breezing:version="2.0"
+        breezing:object="com.importdata.transation.UnitSettingsInserter"/>
+
+       <data
+        breezing:name="info"
+        breezing:type="update"
+        breezing:version="4.0"
+        breezing:object="com.importdata.transation.InformationUpdater"/>
+
+       <data
+        breezing:name="account"
+        breezing:type="insert"
+        breezing:version="2.0"
+        breezing:object="com.importdata.transation.AccountInserter"/>
+</datas>
+

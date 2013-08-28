@@ -1,0 +1,1 @@
+package com.importdata.transation;import java.util.ArrayList;import android.content.ContentProviderOperation;public abstract class DataRowModify {    public abstract void buildOperation(String[] RowData, ArrayList<ContentProviderOperation> ops);}
